@@ -1,0 +1,100 @@
+.body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-image: url(./assests/bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.grey{
+    height: 80%;
+    width: 25%;
+    min-width: 350px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+}
+.white{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+    
+   
+}
+.big{
+    height: 60%;
+    width: 80%;
+    background-color: #f5ece5;
+    margin: 20px auto 5px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 40%;
+    width: 90%;
+  
+    right: -10px;
+}
+input{
+    border: 1px solid white;
+    padding: 10px;
+    width: 60%;
+    display: block;
+    margin: auto;
+    outline: none;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: grey;
+}
+.small{
+    height: 35%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    border-radius: 5px;
+}
+.last{
+    height: 80%;
+   background-color: #f5ece5;
+   width: 30%;
+   border-radius: 5px;
+}
+h5, h3{
+    text-align: center;
+    color: grey;
+}
+#btn{
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    width: 50%;
+    display: block;
+    margin: 10px auto 0 auto;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: white;
+    color: red;
+}
